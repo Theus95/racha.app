@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(vercel --version 2>&1)",
+      "PowerShell(git -C \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\Racha.app\\\\racha-app-project\" status 2>&1)"
+    ]
+  }
+}
