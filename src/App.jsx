@@ -21,9 +21,10 @@ const C = {
 const css = `
   @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
   * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html, body { height: 100%; overflow: hidden; }
   body { background: ${C.bg}; font-family: 'Inter', sans-serif; color: ${C.txt}; -webkit-font-smoothing: antialiased; }
-  .shell { max-width: 430px; margin: 0 auto; min-height: 100vh; background: ${C.bg}; display: flex; flex-direction: column; position: relative; }
-  .screen { flex: 1; overflow-y: auto; padding-bottom: 88px; }
+  .shell { max-width: 430px; margin: 0 auto; height: 100vh; height: 100dvh; background: ${C.bg}; display: flex; flex-direction: column; position: relative; overflow: hidden; }
+  .screen { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; padding-bottom: 88px; }
   .screen::-webkit-scrollbar { display: none; }
   input, select, textarea, button { font-family: 'Inter', sans-serif; }
   input::placeholder { color: ${C.t3}; }
