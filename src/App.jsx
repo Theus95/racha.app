@@ -1634,7 +1634,7 @@ const NAV_ITEMS = [
   { id:"home",    ico:"🏠", lbl:"Início" },
   { id:"times",   ico:"👕", lbl:"Times" },
   { id:"_fab",    ico:"⚽", lbl:"" },
-  { id:"quadras", ico:"🏟", lbl:"Quadras" },
+  { id:"quadras", ico:"📍", lbl:"Quadras" },
   { id:"perfil",  ico:"👤", lbl:"Perfil" },
 ];
 
